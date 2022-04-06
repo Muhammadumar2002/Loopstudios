@@ -1,7 +1,7 @@
 /* CUSTOM-PROPORTY */
 :root{
---text-color-white: #fff;
---text-color-black: #000;
+  --text-color-white: #fff;
+  --text-color-black: #000;
 }
 html {
   height: 100%;
@@ -11,7 +11,7 @@ html {
 @font-face {
   font-family: "Josefin Sans";
   src: url("../fonts/JosefinSans-Light.woff2") format("woff2"),
-      url("../fonts/JosefinSans-Light.woff") format("woff");
+  url("../fonts/JosefinSans-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -20,7 +20,7 @@ html {
 @font-face {
   font-family: "Alata";
   src: url("../fonts/Alata-Regular.woff2") format("woff2"),
-      url("../fonts/Alata-Regular.woff") format("woff");
+  url("../fonts/Alata-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -53,7 +53,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1154px;
+  max-width: 1254px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -129,13 +129,13 @@ img{
   color: var(--text-color-white);
   white-space: nowrap;
 }
-  .sitenav-link:active{
-    opacity: 0.6;
-    border-color: var(--text-color-white);
-  }
-  .site-header-logo-img:active{
-    opacity: 0.6;
-  }
+.sitenav-link:active{
+  opacity: 0.6;
+  border-color: var(--text-color-white);
+}
+.site-header-logo-img:active{
+  opacity: 0.6;
+}
 
 
 /* HERO */
@@ -174,31 +174,135 @@ img{
   padding-left:620px;
   padding-top: 183px;
   background-repeat: no-repeat;
-
+  margin-bottom: 184px;
 }
-.interactive-info-wrapper {
-
-}
-
 .interactive-rectange-info-wrapper{
   padding-left: 96px;
   padding-top: 96px;
   background-color: #fff;
 }
 .interactive-rectange-heading {
-font-style: normal;
-font-weight: 300;
-font-size: 48px;
-line-height: 48px;
-text-transform: uppercase;
-color:var(--text-color-black)
-}
-.interactive-rectange-text{
-
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color:var(--text-color-black)
 }
 .interactive-rectange-text:active{
   opacity: 0.5;
 }
+/* CREACTION */
+
+.creaction {
+  padding-top: 0;
+  padding-bottom: 184px;
+}
+.container {
+
+}
+.creation-info-wrapper {
+}
+.creation-info-top-wrapper {
+  display: flex;
+  margin-bottom: 80px;
+}
+.creation-info-heading {
+  margin-right: auto;
+}
+.creation-info-button {
+  font-family: "Alata";
+  padding-top: 13px;
+  padding-right: 43px;
+  padding-bottom: 13px;
+  padding-left : 38px;
+  line-height: 14px;
+  letter-spacing: 5px;
+  font-size: 14px;
+  color: var(--text-color-black);
+  text-transform: uppercase;
+  background-color:var(--text-color-white);
+}
+.creation-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.creations-item {
+
+}
+.creations-item:not(:last-child){
+margin-right: 30px;
+margin-bottom: 30px;
+}
+.creations-item-link {
+  text-decoration: none;
+  color: #fff;
+  transition: opacity 0.3s ease;
+}
+.creations-item-img {
+  width: 256px;
+  height: 450px;
+}
+.creations-item-heading {
+  margin-top: -100px;
+  margin-left: 40px;
+  margin-bottom: 32px;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  color: #fff;
+  text-transform: uppercase;
+  bottom: 53px;
+  left: 50px;
+  width: 165px;
+}
+/* FOOTER */
+.site-footer {
+  background-color: #000;
+}
+.site-footer-container {
+}
+.container {
+}
+.site-footer-info-wrapper {
+  background-color: #000;
+}
+.site-footer-top {
+  margin-top: 44px;
+  margin-bottom: 24px;
+}
+.site-header-logo-link {
+}
+.site-footer-logo-img {
+}
+.site-footer-logo-icon {
+}
+.site-footer-buttom {
+}
+.sitenav-list {
+}
+.sitenav-item {
+}
+.sitenav-link {
+}
+.site-footer-text {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -211,7 +315,7 @@ only screen and (min-device-pixel-ratio: 2),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx) {
-    .form-info-item{
-        background-image: url(../img/site-header-bg@2x.png);
-    }
+  .form-info-item{
+    background-image: url(../img/site-header-bg@2x.png);
+  }
 }
