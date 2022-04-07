@@ -228,9 +228,6 @@ img{
   flex-wrap: wrap;
   list-style: none;
 }
-.creations-item {
-
-}
 .creations-item:not(:last-child){
 margin-right: 30px;
 margin-bottom: 30px;
@@ -263,33 +260,26 @@ margin-bottom: 30px;
 .site-footer {
   background-color: #000;
 }
-.site-footer-container {
-}
-.container {
-}
 .site-footer-info-wrapper {
   background-color: #000;
 }
 .site-footer-top {
+  display: flex;
   margin-top: 44px;
   margin-bottom: 24px;
 }
-.site-header-logo-link {
-}
 .site-footer-logo-img {
+  margin-right: 822px;
 }
-.site-footer-logo-icon {
+.site-footer-logo-icon:not(:last-child) {
+  margin-right: 16px;
 }
-.site-footer-buttom {
-}
-.sitenav-list {
-}
-.sitenav-item {
-}
-.sitenav-link {
-}
-.site-footer-text {
 
+.site-footer-text {
+  color: #979797;
+  margin-left: 458px;
+  height: 25px;
+  width: 272px;
 }
 
 
